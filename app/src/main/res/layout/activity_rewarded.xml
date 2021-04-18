@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/deep_champagne"
     tools:context=".RewardedActivity">
 
     <Button
@@ -12,6 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
         android:text="Want a reward? Tap here"
+        android:textColor="@color/eggshell"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -21,6 +23,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Increment"
+        android:textColor="@color/eggshell"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -32,7 +35,8 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
         android:text="Current count: 0"
-        android:textColor="@color/purple_200"
+        android:textColor="@color/green_sheen"
+        android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/rewardIncButton"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />

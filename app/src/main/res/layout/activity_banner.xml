@@ -4,10 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/deep_champagne"
     tools:context=".BannerActivity">
 
-    <com.google.android.gms.ads.AdView
-        xmlns:ads="http://schemas.android.com/apk/res-auto"
+    <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
         android:id="@+id/exAd"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -23,6 +23,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Show me an Ad!"
+        android:textColor="@color/eggshell"
         app:layout_constraintBottom_toTopOf="@+id/exAd"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -34,14 +35,14 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:text="Smart Banner"
+        android:textColor="@color/eggshell"
         app:layout_constraintBottom_toTopOf="@+id/exAd"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/adButton"
         app:layout_constraintVertical_bias="0.0" />
 
-    <com.google.android.gms.ads.AdView
-        xmlns:ads="http://schemas.android.com/apk/res-auto"
+    <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
         android:id="@+id/exAdSmart"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -58,9 +59,9 @@
         android:layout_marginStart="296dp"
         android:layout_marginLeft="296dp"
         android:layout_marginBottom="64dp"
+        android:contentDescription="TODO"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/ic_baseline_arrow_forward_24"
-        android:contentDescription="TODO" />
+        app:srcCompat="@drawable/ic_baseline_arrow_forward_24" />
 </androidx.constraintlayout.widget.ConstraintLayout>
